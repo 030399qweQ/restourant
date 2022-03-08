@@ -107,6 +107,51 @@ section .section_title span {
   color: #72A479;
 }
 
+a.cart,
+button.cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 13px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 10px;
+}
+
+a.cart .title,
+button.cart .title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  margin-right: 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+a.cart .emply,
+button.cart .emply {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #403C3B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
 button.green {
   padding: 22px 30px;
   background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
@@ -248,7 +293,8 @@ button.green {
   color: #FFFFFF;
 }
 
-.header a.cart {
+.header a.cart,
+.header button.cart {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,7 +306,8 @@ button.green {
   border-radius: 10px;
 }
 
-.header a.cart .title {
+.header a.cart .title,
+.header button.cart .title {
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
@@ -270,7 +317,8 @@ button.green {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.header a.cart .emply {
+.header a.cart .emply,
+.header button.cart .emply {
   font-weight: 600;
   font-size: 12px;
   line-height: 14px;
